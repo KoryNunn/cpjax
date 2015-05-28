@@ -1,7 +1,7 @@
 {
   "name": "cpjax",
   "version": "1.0.0",
-  "description": "",
+  "description": "callback passing javascript and xtra stuff hopefully not xml",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,16 @@
   },
   "dependencies": {
     "simple-ajax": "^2.1.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoryNunn/cpjax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/cpjax/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/cpjax"
 }
