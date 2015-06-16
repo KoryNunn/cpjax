@@ -21,7 +21,7 @@ module.exports = function(settings, callback){
         callback(null, data, event);
     });
     ajax.on('error', function(event) {
-        callback(event.target.responseText, null, event);
+        callback(new Error(event.target.responseText), null, event);
     });
 
     ajax.send();
