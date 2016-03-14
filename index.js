@@ -20,8 +20,8 @@ module.exports = function(settings, callback){
     ajax.on('success', function(event, data) {
         callback(null, data, event);
     });
-    ajax.on('error', function(event) {
-        callback(new Error(event.target.responseText), null, event);
+    ajax.on('error', function(event, error) {
+        callback(error, null, event);
     });
 
     ajax.send();
