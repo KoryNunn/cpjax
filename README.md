@@ -11,9 +11,9 @@ Make AJAX requests look like anything else async in JavaScript.
 ```js
 var cpjax = require("cpjax");
 
-cpjax("http://www.google/com", function(error, data) {
+cpjax("http://www.google.com", function(error, data) {
   if (error) {
-    return console.log("OH NOES GOOGLE IS DOWN");
+    return console.error("OH NOES GOOGLE IS DOWN");
   }
   console.log("The google homepage: " + data);
 });
