@@ -19,4 +19,4 @@ cpjax("http://www.google.com", function(error, data) {
 });
 ```
 
-`cpjax` is a wrapper around `simple-ajax`, and it returns a `simple-ajax` Object that you can use if you want to.
+`cpjax` is a wrapper around [`simple-ajax`](https://github.com/MauriceButler/simple-ajax), and it returns a `simple-ajax` Object that you can use if you want to.
